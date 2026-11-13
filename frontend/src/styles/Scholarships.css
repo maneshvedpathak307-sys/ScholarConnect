@@ -1,0 +1,835 @@
+
+
+/* ===== Combined from: src/styles/Management.css ===== */
+
+.management-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f7fc;
+  color: #172b4d;
+  font-family: Arial, sans-serif;
+}
+
+.management-sidebar {
+  width: 250px;
+  min-width: 250px;
+  background: #102b55;
+  color: white;
+  padding: 25px 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.management-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 7px 35px;
+}
+
+.management-brand-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: #2479e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.management-brand h2 {
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+
+.management-brand span {
+  font-size: 11px;
+  color: #b8c9e2;
+}
+
+.management-menu-label {
+  font-size: 11px;
+  letter-spacing: 1.2px;
+  color: #8fa8ca;
+  padding: 10px 12px;
+}
+
+.management-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 13px;
+  margin: 4px 0;
+  border-radius: 9px;
+  color: #c8d5e8;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.management-menu-item.active,
+.management-menu-item:hover {
+  background: #2479e8;
+  color: white;
+}
+
+.management-sidebar-bottom {
+  margin-top: auto;
+}
+
+.management-sidebar-bottom button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border: none;
+  border-radius: 9px;
+  padding: 13px;
+  color: white;
+  background: #203d68;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.management-main {
+  flex: 1;
+  min-width: 0;
+  padding: 30px;
+}
+
+.management-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.management-topbar h1 {
+  font-size: 27px;
+  margin: 0 0 7px;
+}
+
+.management-topbar p {
+  color: #77869c;
+  margin: 0;
+  font-size: 14px;
+}
+
+.management-user {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.management-avatar {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dceaff;
+  color: #1769d2;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.management-user strong,
+.management-user span {
+  display: block;
+}
+
+.management-user strong {
+  font-size: 13px;
+}
+
+.management-user span {
+  color: #8290a5;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.management-refresh {
+  margin-left: 10px;
+  border: 1px solid #dce5f1;
+  background: white;
+  color: #2878e8;
+  width: 39px;
+  height: 39px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.management-banner {
+  min-height: 145px;
+  padding: 27px 32px;
+  border-radius: 16px;
+  background: linear-gradient(120deg, #1769d2, #4d94ed);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.management-banner span {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #e1efff;
+}
+
+.management-banner h2 {
+  font-size: 24px;
+  margin: 12px 0 7px;
+}
+
+.management-banner p {
+  color: #e0edff;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.management-banner > svg {
+  opacity: 0.7;
+  margin-right: 25px;
+}
+
+.management-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  margin-bottom: 24px;
+}
+
+.management-stat-card {
+  background: white;
+  border: 1px solid #edf1f7;
+  border-radius: 12px;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  gap: 5px 10px;
+  box-shadow: 0 4px 15px rgba(30, 60, 100, 0.04);
+}
+
+.management-stat-card svg {
+  color: #2878e8;
+  grid-row: span 2;
+}
+
+.management-stat-card span {
+  font-size: 12px;
+  color: #8290a5;
+}
+
+.management-stat-card strong {
+  font-size: 22px;
+}
+
+.management-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.management-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border: 1px solid #e1e8f1;
+  border-radius: 10px;
+  padding: 0 14px;
+  min-width: 0;
+}
+
+.management-search svg {
+  color: #8290a5;
+  flex-shrink: 0;
+}
+
+.management-search input {
+  width: 100%;
+  min-width: 0;
+  border: none;
+  outline: none;
+  padding: 14px 0;
+  font-size: 13px;
+  color: #172b4d;
+}
+
+.management-primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 9px;
+  background: #1769d2;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.management-primary-button:hover {
+  background: #1058b7;
+}
+
+.management-primary-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.management-table-card {
+  background: white;
+  border: 1px solid #edf1f7;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(30, 60, 100, 0.04);
+}
+
+.management-table-heading {
+  padding: 22px;
+  border-bottom: 1px solid #edf1f7;
+}
+
+.management-table-heading h2 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.management-table-heading p {
+  margin: 0;
+  color: #8290a5;
+  font-size: 12px;
+}
+
+.management-table-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.management-table {
+  width: 100%;
+  min-width: 850px;
+  border-collapse: collapse;
+}
+
+.management-table th {
+  background: #f8faff;
+  color: #77869c;
+  text-align: left;
+  padding: 15px;
+  font-size: 11px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.management-table td {
+  padding: 16px 15px;
+  border-top: 1px solid #edf1f7;
+  font-size: 12px;
+  color: #53647d;
+  vertical-align: middle;
+}
+
+.management-table td strong {
+  color: #243955;
+}
+
+.management-subtext {
+  display: block;
+  margin-top: 5px;
+  color: #8290a5;
+  font-size: 11px;
+}
+
+.management-status {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.management-status.active {
+  color: #168451;
+  background: #e3f8ed;
+}
+
+.management-status.inactive {
+  color: #c43e3e;
+  background: #ffe8e8;
+}
+
+.management-view-button,
+.management-activate-button,
+.management-deactivate-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid transparent;
+  padding: 8px 11px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.management-view-button {
+  border-color: #d5e5ff;
+  color: #1769d2;
+  background: #f1f6ff;
+}
+
+.management-activate-button {
+  color: #168451;
+  background: #e3f8ed;
+}
+
+.management-deactivate-button {
+  color: #c43e3e;
+  background: #ffe8e8;
+}
+
+.management-empty {
+  padding: 45px 20px;
+  text-align: center;
+  color: #8290a5;
+  font-size: 14px;
+  background: white;
+  border-radius: 12px;
+}
+
+.management-error {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff0f0;
+  color: #bd3434;
+  border: 1px solid #ffd2d2;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 18px;
+}
+
+.management-error button {
+  margin-left: auto;
+  border: none;
+  background: #bd3434;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.management-footer {
+  padding: 25px 0 5px;
+  text-align: center;
+  font-size: 12px;
+  color: #91a0b5;
+}
+
+/* Profile and form modal */
+
+.management-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(10, 25, 50, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.management-modal {
+  background: white;
+  width: 100%;
+  max-width: 520px;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.management-form-modal {
+  max-width: 720px;
+}
+
+.management-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.management-modal-header h2 {
+  margin: 0 0 7px;
+  font-size: 21px;
+  color: #172b4d;
+}
+
+.management-modal-header p {
+  margin: 0;
+  font-size: 12px;
+  color: #8290a5;
+}
+
+.management-modal-header button {
+  border: none;
+  background: #f1f5fa;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #53647d;
+}
+
+.management-profile-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #e3efff;
+  color: #1769d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.management-profile-name {
+  text-align: center;
+  margin: 10px 0;
+  color: #243955;
+}
+
+.management-modal > .management-status {
+  display: table;
+  margin: 0 auto 22px;
+}
+
+.management-profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.management-profile-details > div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 14px;
+  border-radius: 9px;
+  background: #f7f9fd;
+}
+
+.management-profile-details svg {
+  color: #2878e8;
+}
+
+.management-profile-details section span,
+.management-profile-details section strong {
+  display: block;
+}
+
+.management-profile-details section span {
+  color: #8290a5;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.management-profile-details section strong {
+  color: #243955;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.management-note {
+  color: #8290a5;
+  font-size: 11px;
+  line-height: 1.6;
+  margin-top: 18px;
+}
+
+/* Scholarship cards */
+
+.scholarship-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.scholarship-card {
+  background: white;
+  border: 1px solid #e7edf5;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(30, 60, 100, 0.04);
+}
+
+.scholarship-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scholarship-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 11px;
+  background: #eaf2ff;
+  color: #2878e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scholarship-card h3 {
+  font-size: 17px;
+  color: #243955;
+  margin: 17px 0 8px;
+}
+
+.scholarship-description {
+  min-height: 38px;
+  color: #8290a5;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.scholarship-award {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 13px;
+  margin: 15px 0;
+  background: #f0f6ff;
+  border-radius: 9px;
+  color: #1769d2;
+}
+
+.scholarship-award strong {
+  font-size: 22px;
+}
+
+.scholarship-award span {
+  margin-left: auto;
+  color: #8290a5;
+  font-size: 11px;
+}
+
+.scholarship-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 13px;
+}
+
+.scholarship-details > div {
+  padding: 11px;
+  background: #f8faff;
+  border-radius: 8px;
+  min-width: 0;
+}
+
+.scholarship-details span,
+.scholarship-details strong {
+  display: block;
+}
+
+.scholarship-details span {
+  color: #8290a5;
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+
+.scholarship-details strong {
+  color: #34445c;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.scholarship-card-actions {
+  display: flex;
+  gap: 9px;
+  margin-top: 16px;
+}
+
+.scholarship-card-actions button {
+  flex: 1;
+}
+
+/* Scholarship form */
+
+.management-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.management-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #34445c;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.management-field.full {
+  grid-column: 1 / -1;
+}
+
+.management-field input,
+.management-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #dce5f1;
+  border-radius: 8px;
+  outline: none;
+  color: #243955;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.management-field textarea {
+  resize: vertical;
+}
+
+.management-field input:focus,
+.management-field textarea:focus {
+  border-color: #2878e8;
+}
+
+.management-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #34445c;
+  font-size: 12px;
+  margin-top: 17px;
+}
+
+.management-checkbox input {
+  accent-color: #1769d2;
+}
+
+.management-form-error {
+  color: #bd3434;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.management-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.management-cancel-button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 9px;
+  background: #edf1f6;
+  color: #53647d;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .scholarship-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .management-sidebar {
+    width: 65px;
+    min-width: 65px;
+    padding: 15px 8px;
+  }
+
+  .management-brand {
+    padding: 5px 0 30px;
+  }
+
+  .management-brand > div:last-child,
+  .management-menu-label,
+  .management-menu-item {
+    font-size: 0;
+  }
+
+  .management-menu-item {
+    justify-content: center;
+    padding: 13px 5px;
+  }
+
+  .management-sidebar-bottom button {
+    justify-content: center;
+    font-size: 0;
+  }
+
+  .management-main {
+    padding: 17px;
+  }
+
+  .management-topbar {
+    align-items: flex-start;
+  }
+
+  .management-topbar h1 {
+    font-size: 21px;
+  }
+
+  .management-user > div:nth-child(2) {
+    display: none;
+  }
+
+  .management-banner {
+    padding: 22px;
+  }
+
+  .management-banner h2 {
+    font-size: 20px;
+  }
+
+  .management-banner > svg {
+    display: none;
+  }
+
+  .management-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .management-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .management-primary-button {
+    width: 100%;
+  }
+
+  .management-form-grid,
+  .scholarship-details {
+    grid-template-columns: 1fr;
+  }
+
+  .management-form-modal,
+  .management-modal {
+    padding: 17px;
+  }
+}

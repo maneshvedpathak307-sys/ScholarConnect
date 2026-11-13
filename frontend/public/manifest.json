@@ -1,0 +1,16 @@
+{
+  "short_name": "ScholarConnect",
+  "name": "ScholarConnect - PG Scholarship Portal",
+  "icons": [
+    {
+      "src": "scholarconnect.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1646A0",
+  "background_color": "#FFFFFF"
+}

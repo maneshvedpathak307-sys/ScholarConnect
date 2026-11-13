@@ -1,0 +1,38 @@
+package com.scholarship.portal.enums;
+
+public enum DocumentType {
+
+    PHOTOGRAPH,
+    
+    SIGNATURE,
+
+    AADHAAR,
+
+    PAN,
+
+    RATION_CARD,
+
+    BANK_PASSBOOK,
+
+    MARKSHEET_10TH,
+
+    MARKSHEET_12TH,
+
+    GRADUATION_MARKSHEET,
+
+    PREVIOUS_YEAR_MARKSHEET,
+
+    INCOME_CERTIFICATE,
+
+    DOMICILE_CERTIFICATE,
+
+    NON_CREAMY_LAYER,
+
+    CASTE_CERTIFICATE,
+
+    CASTE_VALIDITY,
+
+    BONAFIDE_CERTIFICATE,
+
+    OTHER
+}
