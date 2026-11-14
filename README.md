@@ -6,7 +6,7 @@ The system provides separate portals for Admin and Student users with secure JWT
 
 ---
 
-## 🚀 Project Overview
+# 🚀 Project Overview
 
 ScholarConnect is designed to simplify the postgraduate scholarship application and management process.
 
@@ -18,9 +18,9 @@ The application follows a role-based architecture with separate Admin and Studen
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### 🔐 Authentication
+## 🔐 Authentication
 
 - Student Registration
 - Student Login
@@ -35,11 +35,11 @@ The application follows a role-based architecture with separate Admin and Studen
 
 ---
 
-### 👨‍💼 Admin Module
+# 👨‍💼 Admin Module
 
 The Admin module provides centralized control over scholarship operations.
 
-#### 📊 Admin Dashboard
+## 📊 Admin Dashboard
 
 Admin can view:
 
@@ -52,9 +52,7 @@ Admin can view:
 - Application Statistics
 - Scholarship Overview
 
----
-
-#### 📄 Application Management
+## 📄 Application Management
 
 Admin can:
 
@@ -71,7 +69,7 @@ Admin can:
 - Reject Applications
 - View Application Review Information
 
-##### Application Status
+### Application Status
 
 ```text
 DRAFT
@@ -82,9 +80,7 @@ APPROVED
 REJECTED
 ```
 
----
-
-#### 👥 Student Management
+## 👥 Student Management
 
 Admin can:
 
@@ -95,9 +91,7 @@ Admin can:
 - View Student Application Information
 - Monitor Student Application Status
 
----
-
-#### 🎓 Scholarship Management
+## 🎓 Scholarship Management
 
 Admin can:
 
@@ -111,7 +105,7 @@ Admin can:
 - Configure Scholarship Eligibility
 - Manage Scholarship Application Periods
 
-##### Scholarship Information
+### Scholarship Information
 
 - Scholarship Name
 - Scholarship Description
@@ -126,9 +120,7 @@ Admin can:
 
 The portal supports postgraduate scholarship management and configurable eligibility information.
 
----
-
-#### 📊 Scholarship Reports
+## 📊 Scholarship Reports
 
 Admin can:
 
@@ -143,7 +135,7 @@ Admin can:
 - View Application Details
 - Download Scholarship Report PDFs
 
-##### Report Information
+### Report Information
 
 - Total Applications
 - Submitted Applications
@@ -155,9 +147,7 @@ Admin can:
 
 The selected report period is validated against the scholarship application period.
 
----
-
-#### 📁 Document Verification
+## 📁 Document Verification
 
 Admin can:
 
@@ -169,7 +159,7 @@ Admin can:
 - Track Document Verification Status
 - Review Student Supporting Documents
 
-##### Document Types
+### Document Types
 
 - Photograph
 - Signature
@@ -193,11 +183,11 @@ Document requirements depend on the scholarship scheme and application configura
 
 ---
 
-### 👨‍🎓 Student Module
+# 👨‍🎓 Student Module
 
 Students have a separate portal for managing their scholarship applications.
 
-#### 📊 Student Dashboard
+## 📊 Student Dashboard
 
 Students can view:
 
@@ -209,9 +199,7 @@ Students can view:
 - Notifications
 - Scholarship Information
 
----
-
-#### 🎓 Scholarship Opportunities
+## 🎓 Scholarship Opportunities
 
 Students can:
 
@@ -227,9 +215,7 @@ Students can:
 - Check Application End Date
 - Explore Scholarship Opportunities
 
----
-
-#### 📝 Scholarship Application
+## 📝 Scholarship Application
 
 Students can:
 
@@ -247,13 +233,11 @@ Students can:
 - Review Application Details
 - Submit Scholarship Applications
 
----
-
-#### 📁 Document Upload
+## 📁 Document Upload
 
 Students can upload the documents required for their selected scholarship.
 
-##### Document Features
+### Document Features
 
 - Upload Photograph
 - Upload Signature
@@ -265,9 +249,7 @@ Students can upload the documents required for their selected scholarship.
 
 The backend validates uploaded document types and file content.
 
----
-
-#### 📋 My Applications
+## 📋 My Applications
 
 Students can:
 
@@ -281,9 +263,7 @@ Students can:
 - Submit Applications
 - Download Application PDFs
 
----
-
-#### 📄 Application PDF
+## 📄 Application PDF
 
 Students can download their scholarship application as a PDF.
 
@@ -298,9 +278,7 @@ The application PDF includes relevant information such as:
 - Supporting Document Information
 - Application Status
 
----
-
-#### 🔔 Notifications
+## 🔔 Notifications
 
 Students can:
 
@@ -311,9 +289,7 @@ Students can:
 - View Rejection Updates
 - Track Important Application Information
 
----
-
-#### 👤 Student Profile
+## 👤 Student Profile
 
 Students can:
 
@@ -326,7 +302,7 @@ Students can:
 
 ---
 
-## 🔄 Application Workflow
+# 🔄 Application Workflow
 
 The complete scholarship application workflow is:
 
@@ -366,7 +342,7 @@ Download Application PDF
 
 ---
 
-## 🏗️ Project Architecture
+# 🏗️ Project Architecture
 
 ScholarConnect follows a full-stack architecture.
 
@@ -391,9 +367,9 @@ MySQL stores student, scholarship, application, document, and review information
 
 ---
 
-## 🛠️ Technology Stack
+# 🛠️ Technology Stack
 
-### Frontend
+## Frontend
 
 - React.js
 - JavaScript
@@ -403,7 +379,7 @@ MySQL stores student, scholarship, application, document, and review information
 - Axios
 - Lucide React
 
-### Backend
+## Backend
 
 - Java 21
 - Spring Boot 3.5.7
@@ -417,12 +393,12 @@ MySQL stores student, scholarship, application, document, and review information
 - REST APIs
 - OpenPDF
 
-### Database
+## Database
 
 - MySQL 8
 - MySQL Connector/J
 
-### Development Tools
+## Development Tools
 
 - Visual Studio Code
 - Eclipse
@@ -433,7 +409,7 @@ MySQL stores student, scholarship, application, document, and review information
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 ScholarConnect/
@@ -474,18 +450,22 @@ ScholarConnect/
 │   ├── 01.Guest_Page.jpeg
 │   ├── 02.Login_Page.jpeg
 │   ├── 03.Registration_Page.jpeg
-│   ├── 04.Admin_Dashboard.jpeg
-│   ├── 05.Admin_Applications.jpeg
-│   ├── 06.Admin_Students.jpeg
-│   ├── 07.Admin_Scholarships.jpeg
-│   ├── 08.Admin_Reports.jpeg
-│   ├── 09.Student_Dashboard.jpeg
-│   ├── 10.Student_Scholarship.jpeg
-│   ├── 11.Apply_Scholarship.jpeg
-│   ├── 12.Student_Application.jpeg
-│   ├── 13.Application_Pdf.jpeg
-│   ├── 14.Student_Notifications.jpeg
-│   └── 15.Student_Profile.jpeg
+│   ├── 04.Forgot_Password.jpeg
+│   ├── 05.Verify_Email.jpeg
+│   ├── 06.Reset_Password.jpeg
+│   ├── 07.Admin_Dashboard.jpeg
+│   ├── 08.Admin_Applications.jpeg
+│   ├── 09.Admin_Students.jpeg
+│   ├── 10.Admin_Scholarships.jpeg
+│   ├── 11.Admin_Reports.jpeg
+│   ├── 12.Report_Pdf.jpeg
+│   ├── 13.Student_Dashboard.jpeg
+│   ├── 14.Student_Scholarship.jpeg
+│   ├── 15.Apply_Scholarship.jpeg
+│   ├── 16.Student_Application.jpeg
+│   ├── 17.Application_Pdf.jpeg
+│   ├── 18.Student_Notifications.jpeg
+│   └── 19.Student_Profile.jpeg
 │
 ├── .gitignore
 └── README.md
@@ -493,11 +473,11 @@ ScholarConnect/
 
 ---
 
-## 🗄️ Database
+# 🗄️ Database
 
 The application uses MySQL to store scholarship portal information.
 
-### Main Database Entities
+## Main Database Entities
 
 ```text
 users
@@ -511,7 +491,7 @@ notifications
 
 These are the main entities used by the application. Additional tables may be created by the JPA entity relationships and configuration.
 
-### Database Responsibilities
+## Database Responsibilities
 
 - User Account Management
 - Student Information
@@ -525,9 +505,9 @@ These are the main entities used by the application. Additional tables may be cr
 
 ---
 
-## 🔌 Backend API
+# 🔌 Backend API
 
-### Base URL
+## Base URL
 
 ```text
 http://localhost:8080/api
@@ -535,7 +515,7 @@ http://localhost:8080/api
 
 The backend provides REST APIs for authentication, scholarship management, student applications, document management, admin operations, and reports.
 
-### 🔐 Authentication
+## 🔐 Authentication
 
 ```text
 /api/auth/**
@@ -543,7 +523,7 @@ The backend provides REST APIs for authentication, scholarship management, stude
 
 Provides authentication and user account operations.
 
-### 🎓 Scholarships
+## 🎓 Scholarships
 
 ```text
 /api/scholarships/**
@@ -551,7 +531,7 @@ Provides authentication and user account operations.
 
 Provides scholarship information and available scholarship operations.
 
-### 📝 Applications
+## 📝 Applications
 
 ```text
 /api/applications/**
@@ -559,7 +539,7 @@ Provides scholarship information and available scholarship operations.
 
 Provides application creation, editing, submission, listing, and application details.
 
-### 👤 Student
+## 👤 Student
 
 ```text
 /api/student/**
@@ -567,7 +547,7 @@ Provides application creation, editing, submission, listing, and application det
 
 Provides student-related operations.
 
-### 👨‍💼 Admin
+## 👨‍💼 Admin
 
 ```text
 /api/admin/**
@@ -575,7 +555,7 @@ Provides student-related operations.
 
 Provides administration and scholarship management operations.
 
-### 📁 Documents
+## 📁 Documents
 
 ```text
 /api/documents/**
@@ -583,7 +563,7 @@ Provides administration and scholarship management operations.
 
 Provides document upload and document management operations.
 
-### 🔔 Notifications
+## 🔔 Notifications
 
 ```text
 /api/notifications/**
@@ -591,7 +571,7 @@ Provides document upload and document management operations.
 
 Provides student notification operations.
 
-### 📊 Reports
+## 📊 Reports
 
 ```text
 /api/admin/reports/**
@@ -603,7 +583,7 @@ Provides scholarship reporting and PDF generation.
 
 ---
 
-## 🔐 JWT Authentication Flow
+# 🔐 JWT Authentication Flow
 
 ScholarConnect uses JWT-based authentication to protect its APIs.
 
@@ -633,11 +613,11 @@ Protected API Access
 
 ---
 
-## 👥 Role-Based Access Control
+# 👥 Role-Based Access Control
 
 The system provides separate access levels for Admin and Student users.
 
-### ADMIN
+## ADMIN
 
 - Dashboard
 - Applications
@@ -646,7 +626,7 @@ The system provides separate access levels for Admin and Student users.
 - Reports
 - Document Verification
 
-### STUDENT
+## STUDENT
 
 - Dashboard
 - Scholarships
@@ -659,11 +639,11 @@ Protected backend endpoints use Spring Security role-based authorization.
 
 ---
 
-## 📄 PDF Generation
+# 📄 PDF Generation
 
 ScholarConnect supports PDF generation for scholarship application and administrative reporting.
 
-### Student Application PDF
+## Student Application PDF
 
 - Student Application Details
 - Scholarship Details
@@ -672,7 +652,7 @@ ScholarConnect supports PDF generation for scholarship application and administr
 - Education Information
 - Supporting Document Information
 
-### Admin Scholarship Report PDF
+## Admin Scholarship Report PDF
 
 - Scholarship Information
 - Selected Report Period
@@ -684,16 +664,16 @@ ScholarConnect supports PDF generation for scholarship application and administr
 
 ---
 
-## ▶️ How to Run the Project
+# ▶️ How to Run the Project
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/maneshvedpathak307-sys/ScholarConnect.git
 cd ScholarConnect
 ```
 
-### 2. Configure MySQL
+## 2. Configure MySQL
 
 Create the database:
 
@@ -707,7 +687,7 @@ Configure your database connection in:
 backend/src/main/resources/application.properties
 ```
 
-##### Example
+### Example Configuration
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3307/scholarship_portal?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
@@ -721,7 +701,7 @@ Update the port, username, and password according to your local MySQL configurat
 
 **Important:** Do not upload your real database password, JWT secret, email credentials, or other private configuration values to GitHub. Use environment variables for secrets.
 
-### 3. Run Backend
+## 3. Run Backend
 
 Open a terminal in the project directory:
 
@@ -731,19 +711,19 @@ cd backend
 
 Make sure Java 21 and Maven are installed.
 
-##### Check Java
+### Check Java
 
 ```bash
 java -version
 ```
 
-##### Check Maven
+### Check Maven
 
 ```bash
 mvn --version
 ```
 
-Run the Spring Boot application:
+### Run Spring Boot Application
 
 ```bash
 mvn spring-boot:run
@@ -755,7 +735,7 @@ mvn spring-boot:run
 http://localhost:8080
 ```
 
-### 4. Run Frontend
+## 4. Run Frontend
 
 Open another terminal:
 
@@ -763,13 +743,13 @@ Open another terminal:
 cd frontend
 ```
 
-Install dependencies:
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Start the React application:
+### Start React Application
 
 ```bash
 npm start
@@ -783,83 +763,99 @@ http://localhost:3000
 
 ---
 
-## 📸 Project Screenshots
+# 📸 Project Screenshots
 
-All project screenshots are available in the `screenshots` folder.
+All 19 project screenshots are stored in the `screenshots` folder.
 
-### 🌐 Guest and Authentication Screens
+## 🌐 Guest and Authentication Screens
 
-#### 1. Guest Page
+### 1. Guest Page
 
 ![ScholarConnect Guest Page](./screenshots/01.Guest_Page.jpeg)
 
-#### 2. Login Page
+### 2. Login Page
 
 ![ScholarConnect Login Page](./screenshots/02.Login_Page.jpeg)
 
-#### 3. Registration Page
+### 3. Registration Page
 
 ![ScholarConnect Registration Page](./screenshots/03.Registration_Page.jpeg)
 
----
+### 4. Forgot Password
 
-### 👨‍💼 Admin Screens
+![ScholarConnect Forgot Password](./screenshots/04.Forgot_Password.jpeg)
 
-#### 4. Admin Dashboard
+### 5. Verify Email
 
-![ScholarConnect Admin Dashboard](./screenshots/04.Admin_Dashboard.jpeg)
+![ScholarConnect Verify Email](./screenshots/05.Verify_Email.jpeg)
 
-#### 5. Admin Applications
+### 6. Reset Password
 
-![ScholarConnect Admin Applications](./screenshots/05.Admin_Applications.jpeg)
-
-#### 6. Admin Students
-
-![ScholarConnect Admin Students](./screenshots/06.Admin_Students.jpeg)
-
-#### 7. Admin Scholarships
-
-![ScholarConnect Admin Scholarships](./screenshots/07.Admin_Scholarships.jpeg)
-
-#### 8. Admin Reports
-
-![ScholarConnect Admin Reports](./screenshots/08.Admin_Reports.jpeg)
+![ScholarConnect Reset Password](./screenshots/06.Reset_Password.jpeg)
 
 ---
 
-### 👨‍🎓 Student Screens
+## 👨‍💼 Admin Screens
 
-#### 9. Student Dashboard
+### 7. Admin Dashboard
 
-![ScholarConnect Student Dashboard](./screenshots/09.Student_Dashboard.jpeg)
+![ScholarConnect Admin Dashboard](./screenshots/07.Admin_Dashboard.jpeg)
 
-#### 10. Student Scholarships
+### 8. Admin Applications
 
-![ScholarConnect Student Scholarships](./screenshots/10.Student_Scholarship.jpeg)
+![ScholarConnect Admin Applications](./screenshots/08.Admin_Applications.jpeg)
 
-#### 11. Apply Scholarship
+### 9. Admin Students
 
-![ScholarConnect Apply Scholarship](./screenshots/11.Apply_Scholarship.jpeg)
+![ScholarConnect Admin Students](./screenshots/09.Admin_Students.jpeg)
 
-#### 12. Student Application
+### 10. Admin Scholarships
 
-![ScholarConnect Student Application](./screenshots/12.Student_Application.jpeg)
+![ScholarConnect Admin Scholarships](./screenshots/10.Admin_Scholarships.jpeg)
 
-#### 13. Application PDF
+### 11. Admin Reports
 
-![ScholarConnect Application PDF](./screenshots/13.Application_Pdf.jpeg)
+![ScholarConnect Admin Reports](./screenshots/11.Admin_Reports.jpeg)
 
-#### 14. Student Notifications
+### 12. Scholarship Report PDF
 
-![ScholarConnect Student Notifications](./screenshots/14.Student_Notifications.jpeg)
-
-#### 15. Student Profile
-
-![ScholarConnect Student Profile](./screenshots/15.Student_Profile.jpeg)
+![ScholarConnect Scholarship Report PDF](./screenshots/12.Report_Pdf.jpeg)
 
 ---
 
-## 🔒 Security
+## 👨‍🎓 Student Screens
+
+### 13. Student Dashboard
+
+![ScholarConnect Student Dashboard](./screenshots/13.Student_Dashboard.jpeg)
+
+### 14. Student Scholarships
+
+![ScholarConnect Student Scholarships](./screenshots/14.Student_Scholarship.jpeg)
+
+### 15. Apply Scholarship
+
+![ScholarConnect Apply Scholarship](./screenshots/15.Apply_Scholarship.jpeg)
+
+### 16. Student Application
+
+![ScholarConnect Student Application](./screenshots/16.Student_Application.jpeg)
+
+### 17. Application PDF
+
+![ScholarConnect Application PDF](./screenshots/17.Application_Pdf.jpeg)
+
+### 18. Student Notifications
+
+![ScholarConnect Student Notifications](./screenshots/18.Student_Notifications.jpeg)
+
+### 19. Student Profile
+
+![ScholarConnect Student Profile](./screenshots/19.Student_Profile.jpeg)
+
+---
+
+# 🔒 Security
 
 The application uses:
 
@@ -875,7 +871,7 @@ For production deployment, configure HTTPS, secure secrets, database backups, an
 
 ---
 
-## 🎯 Future Enhancements
+# 🎯 Future Enhancements
 
 - Email and SMS Notifications
 - Online Scholarship Disbursement Tracking
@@ -893,17 +889,16 @@ For production deployment, configure HTTPS, secure secrets, database backups, an
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Manesh Vedpathak**
 
 Java Full Stack Developer
 
-React.js + Spring Boot + MySQL
+**React.js + Spring Boot + MySQL**
 
 ---
 
-## ⭐ Project
+# ⭐ Project
 
 If you find this project useful, consider giving it a star on GitHub.
-
